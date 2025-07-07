@@ -14,7 +14,7 @@ char *history[MAX_HISTORY];
 int history_count = 0;
 
 void handle_sigint(int sig) {
-    write(STDOUT_FILENO, "\nmysh> ", 7);
+    write(STDOUT_FILENO, "\n~> ", 7);
 }
 
 void add_to_history(const char *cmd) {
