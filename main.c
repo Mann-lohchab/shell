@@ -112,6 +112,7 @@ int run_history_command(char *input, char **args) {
     }
     return 0;
 }
+//piping operations
 
 // Handle piping (cmd1 | cmd2)
 int execute_piped_commands(char **args) {
