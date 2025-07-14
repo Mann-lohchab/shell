@@ -5,6 +5,6 @@ This a shell written in c lang , more updates are coming stay tuned .
 cd 
 mkdir 
 history 
-more..loading
+help feature added ...enjoy
 
 
